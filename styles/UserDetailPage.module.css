@@ -1,0 +1,81 @@
+* {
+    background-color: #e8e6e6;
+}
+
+.logoutButton {
+    width: 300px;
+    background-color: #282c34;
+    position: absolute;
+    top: 50px;
+    left: 85%;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    font-family: Roboto, sans-serif;
+    margin-left: 20px;
+}
+
+img {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    background-color: #8e3353;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-family: Roboto, sans-serif;
+}
+
+/* Медиазапросы для адаптивного дизайна */
+@media (max-width: 768px) {
+    .logoutButton {
+        width: 200px; /* Уменьшаем ширину кнопки на планшетах и мобильных */
+        left: 70%; /* Сдвигаем кнопку ближе к центру экрана */
+    }
+
+    p {
+        font-size: 16px; /* Уменьшаем размер шрифта для текста */
+        margin-left: 10px;
+    }
+
+    img {
+        width: 150px; /* Уменьшаем размер изображения на мобильных */
+        height: 150px;
+        box-shadow: none; /* Убираем тень для упрощения дизайна на маленьких экранах */
+    }
+
+    h3 {
+        font-size: 24px; /* Уменьшаем размер шрифта для заголовка */
+        height: 150px; /* Уменьшаем высоту блока заголовка */
+    }
+}
+
+@media (max-width: 480px) {
+    .logoutButton {
+        width: 80px; /* Уменьшаем ширину кнопки на маленьких экранах */
+        left: 73%; /* Ещё ближе к центру */
+        top: 2%;
+    }
+
+    p {
+        font-size: 14px; /* Ещё меньше размер шрифта */
+        margin-left: 5px;
+    }
+
+    img {
+        width: 100px; /* Ещё меньше изображение */
+        height: 100px;
+    }
+
+    h3 {
+        font-size: 20px; /* Заголовок ещё меньше */
+        height: 120px; /* Ещё меньше высота блока заголовка */
+    }
+}
