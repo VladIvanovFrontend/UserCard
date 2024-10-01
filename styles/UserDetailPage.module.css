@@ -33,49 +33,48 @@ h3 {
     font-family: Roboto, sans-serif;
 }
 
-/* Медиазапросы для адаптивного дизайна */
 @media (max-width: 768px) {
     .logoutButton {
-        width: 200px; /* Уменьшаем ширину кнопки на планшетах и мобильных */
-        left: 70%; /* Сдвигаем кнопку ближе к центру экрана */
+        width: 200px;
+        left: 70%;
     }
 
     p {
-        font-size: 16px; /* Уменьшаем размер шрифта для текста */
+        font-size: 16px;
         margin-left: 10px;
     }
 
     img {
-        width: 150px; /* Уменьшаем размер изображения на мобильных */
+        width: 150px;
         height: 150px;
-        box-shadow: none; /* Убираем тень для упрощения дизайна на маленьких экранах */
+        box-shadow: none;
     }
 
     h3 {
-        font-size: 24px; /* Уменьшаем размер шрифта для заголовка */
-        height: 150px; /* Уменьшаем высоту блока заголовка */
+        font-size: 24px;
+        height: 150px;
     }
 }
 
 @media (max-width: 480px) {
     .logoutButton {
-        width: 80px; /* Уменьшаем ширину кнопки на маленьких экранах */
-        left: 73%; /* Ещё ближе к центру */
+        width: 80px;
+        left: 73%;
         top: 2%;
     }
 
     p {
-        font-size: 14px; /* Ещё меньше размер шрифта */
+        font-size: 14px;
         margin-left: 5px;
     }
 
     img {
-        width: 100px; /* Ещё меньше изображение */
+        width: 100px;
         height: 100px;
     }
 
     h3 {
-        font-size: 20px; /* Заголовок ещё меньше */
-        height: 120px; /* Ещё меньше высота блока заголовка */
+        font-size: 20px;
+        height: 120px;
     }
 }
